@@ -1,8 +1,8 @@
-# Startup Incubation Platform (CITBIF)
+# Startup Incubation Platform (Inovex)
 
 ## Overview
 
-CITBIF is a full-stack incubation management platform designed for **startup founders and teams** applying to or participating in an incubation program.
+Inovex is a full-stack incubation management platform designed for **startup founders and teams** applying to or participating in an incubation program.
 
 It supports the complete journey from **application intake** and **administrative review** to **portfolio management** and **founder workspace** operations.
 
@@ -260,8 +260,8 @@ Mentor session and investor introduction flows share one model:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/nes268/CITBIF.git
-cd CITBIF
+git clone https://github.com/nes268/Inovex.git
+cd Inovex
 ```
 
 ### 2. Backend setup

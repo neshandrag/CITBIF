@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import AnimatedBackground from '../layout/AnimatedBackground';
 import { useAuth } from '../../context/AuthContext';
 
-const BRAND = 'CITBIF';
+const BRAND = 'Inovex';
 /** Brief beat before the first letter — keeps the entrance intentional, not sluggish */
 const SPLASH_DELAY_CHILDREN = 0.14;
 /** Space between letters: quick cascade, still readable one-by-one */
@@ -95,7 +95,7 @@ const SplashScreen: React.FC = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        aria-label="CITBIF"
+        aria-label="Inovex"
       >
         {BRAND.split('').map((char, index) => (
           <motion.span

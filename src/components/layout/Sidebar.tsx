@@ -53,7 +53,7 @@ const Sidebar: React.FC = () => {
       {/* Logo */}
       <div className="p-6 border-b border-[var(--border-muted)] flex-shrink-0">
         <div className="flex items-center">
-          <span className="citbif-wordmark citbif-wordmark--sidebar">CITBIF</span>
+          <span className="inovex-wordmark inovex-wordmark--sidebar">Inovex</span>
         </div>
       </div>
 

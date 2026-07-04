@@ -1,6 +1,6 @@
-# CITBIF Backend Server
+# Inovex Backend Server
 
-Express backend with MongoDB for the CITBIF application.
+Express backend with MongoDB for the Inovex application.
 
 ## Setup
 
@@ -14,7 +14,7 @@ Express backend with MongoDB for the CITBIF application.
 
    ```env
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/citbif
+   MONGODB_URI=mongodb://localhost:27017/inovex
    ```
 
    **Optional — SMTP (mentor session emails only, unchanged behavior)**  
@@ -25,7 +25,7 @@ Express backend with MongoDB for the CITBIF application.
    SMTP_PORT=587
    SMTP_USER=your-email@gmail.com
    SMTP_PASS=your-app-password
-   SMTP_FROM=noreply@citbif.com
+   SMTP_FROM=noreply@inovex.com
    ```
 
    - Gmail: use an **App Password** (2FA required), not your normal password.  

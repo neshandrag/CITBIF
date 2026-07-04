@@ -33,7 +33,7 @@ const LogoDot: React.FC<{
   );
 };
 
-const CITBIFLogo: React.FC = () => {
+const InovexLogo: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
   const mouseX = useMotionValue(0);
@@ -73,11 +73,11 @@ const CITBIFLogo: React.FC = () => {
         <LogoDot key={i} index={i} smoothX={smoothX} smoothY={smoothY} />
       ))}
       <motion.span
-        className="citbif-wordmark relative z-10 text-[1.625rem] leading-none select-none"
+        className="inovex-wordmark relative z-10 text-[1.625rem] leading-none select-none"
         animate={{ scale: isHovered ? 1.03 : 1 }}
         transition={{ type: 'spring', stiffness: 400, damping: 25 }}
       >
-        CITBIF
+        Inovex
       </motion.span>
     </div>
   );
@@ -132,7 +132,7 @@ const Header: React.FC = () => {
           className="h-9 w-9 sm:h-10 sm:w-10 shrink-0 object-contain select-none pointer-events-none drop-shadow-[0_2px_8px_rgba(79,70,229,0.15)]"
           aria-hidden
         />
-        <CITBIFLogo />
+        <InovexLogo />
       </div>
 
       {/* Navigation */}
